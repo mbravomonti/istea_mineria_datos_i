@@ -19,10 +19,10 @@ with open('libros.csv', newline='') as csvfile:
         lista_libros.append(libro)
 
 while (permanencia):
-    print("1. Agregar libro")
-    print("2. Buscar libros por género")
-    print("3. Recomendar libro")
-    print("4. Salir")
+    print("""1. Agregar libro
+2. Buscar libros por género
+3. Recomendar libro
+4. Salir""")
     try:
         opcion = int(input("Ingrese una opción: "))
     except ValueError:
